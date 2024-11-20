@@ -1,0 +1,63 @@
+{
+    "name": "MoreMountains.Feedbacks.Authorizations",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d60799ab2a985554ea1a39cd38695018",
+        "GUID:4a1cb1490dc4df8409b2580d6b44e75e",
+        "GUID:8087d854c1f812e4b9a74437dfc524e0",
+        "GUID:3e8495bfd2df0ff4ca1f5b0f360e50a7",
+        "GUID:2361f148a8b2a6e4d82a47713bab9e09",
+        "GUID:1dbcca72f42070548a895178556c5bc3",
+        "GUID:b7361f52a93c32c48a670c64f5ae2ab6",
+        "GUID:ba880a3c55a41254a91d85dd28666dda",
+        "GUID:41e9b1707d6e5d741880dbf9158c858c",
+        "GUID:f81e926ef5b1a3e4fad4bc10bb9e5633",
+        "GUID:30817c1a0e6d646d99c048fc403f5979",
+        "GUID:e720aa64e3f58fb4880566a322584340",
+        "GUID:325984b52e4128546bc7558552f8b1d2",
+        "GUID:72872094b21c16e48b631b2224833d49",
+        "GUID:1c7c33eb5480dd24c9e29a8250c1a775",
+        "GUID:fecf25954bb196642ab50657689761d6",
+        "GUID:627104647b9c04b4ebb8978a92ecac63"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "MM_INPUTSYSTEM"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "1.0.0",
+            "define": "MM_CINEMACHINE"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "1.0.0",
+            "define": "MM_TEXTMESHPRO"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "1.0.0",
+            "define": "MM_URP"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "1.0.0",
+            "define": "MM_HDRP"
+        },
+        {
+            "name": "com.unity.postprocessing",
+            "expression": "1.0.0",
+            "define": "MM_POSTPROCESSING"
+        }
+    ],
+    "noEngineReferences": false
+}
