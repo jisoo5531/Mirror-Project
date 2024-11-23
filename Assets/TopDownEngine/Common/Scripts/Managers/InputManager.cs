@@ -25,7 +25,7 @@ namespace MoreMountains.TopDownEngine
 		[MMInformation("The first thing you need to set on your InputManager is the PlayerID. This ID will be used to bind the input manager to your character(s). You'll want to go with Player1, Player2, Player3 or Player4.",MMInformationAttribute.InformationType.Info,false)]
 		/// a string identifying the target player(s). You'll need to set this exact same string on your Character, and set its type to Player
 		[Tooltip("a string identifying the target player(s). You'll need to set this exact same string on your Character, and set its type to Player")]
-		public string PlayerID = "Player1";
+		public string PlayerID = "Player2";
 		/// the possible modes for this input manager
 		public enum InputForcedModes { None, Mobile, Desktop }
 		/// the possible kinds of control used for movement
