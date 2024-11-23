@@ -1,11 +1,12 @@
 using UnityEngine;
+using Mirror;
 
 namespace MoreMountains.Tools
 {
 	/// <summary>
 	/// Singleton pattern.
 	/// </summary>
-	public class MMSingleton<T> : MonoBehaviour	where T : Component
+	public class MMSingleton<T> : NetworkBehaviour where T : Component
 	{
 		protected static T _instance;
 		public static bool HasInstance => _instance != null;

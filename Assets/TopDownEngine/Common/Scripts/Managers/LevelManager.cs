@@ -6,6 +6,7 @@ using MoreMountains.Feedbacks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using MoreMountains.Tools;
+using Mirror;
 
 
 namespace MoreMountains.TopDownEngine
@@ -213,6 +214,7 @@ namespace MoreMountains.TopDownEngine
 			if (GameManager.Instance.StoredCharacter != null)
 			{
 				Character newPlayer = Instantiate(GameManager.Instance.StoredCharacter, _initialSpawnPointPosition, Quaternion.identity);
+				NetworkServer.Spawn(newPlayer.gameObject);
 				newPlayer.name = GameManager.Instance.StoredCharacter.name;
 				Players.Add(newPlayer);
 				return;
@@ -235,6 +237,7 @@ namespace MoreMountains.TopDownEngine
 				foreach (Character playerPrefab in PlayerPrefabs)
 				{
 					Character newPlayer = Instantiate (playerPrefab, _initialSpawnPointPosition, Quaternion.identity);
+					NetworkServer.Spawn(newPlayer.gameObject);
 					newPlayer.name = playerPrefab.name;
 					Players.Add(newPlayer);
 
